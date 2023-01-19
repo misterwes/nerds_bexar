@@ -1,0 +1,6 @@
+# nerds_bexar
+### Description
+This is a repository of the work I'm doing to take data from the National Education Resource Database on Schools (per pupil spending), marry it to data from the Texas Department of Agriculture that indicates the percent of the student body in a given school that is eligible for free lunch (which is a measure of economic disadvantage) and then run correlation analyses to see whether there are funding disparities in a given district such that schools with higher levels of economic disadvantage are getting as many or more resources as schools with lower levels of economic disadvantage. <br><br>
+A value close to `1.0` indicates no disparity. The lower a number is `0.0` and `1.0` could indicate some disparity. A negative value indicates a district that is sending more resources to schools with lower levels of economic disadvantage than schools with higher levels of economic disadvantage. Scatterplots will further illustrate where the outliers are. <br>
+Once we see where there might be an issue, we can pair with an education reporter to investigate whether Bexar County schools are being adequately funded. <br>
+This analysis will be repeated as more recent data become available. 
